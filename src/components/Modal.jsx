@@ -1,6 +1,6 @@
 import React from "react";
 
-function Modal({isShowForm, setIsShowForm, register, handleSubmit, submit, reset, setIsUserIdToEdit, isUserIdToEdit, errors, isShowFormAlert}) {
+function Modal({isShowForm, setIsShowForm, register, handleSubmit, submit, reset, setIsUserIdToEdit, isUserIdToEdit, errors}) {
 
     const handleClickShowModal = () => {
         setIsShowForm(e=> !e)

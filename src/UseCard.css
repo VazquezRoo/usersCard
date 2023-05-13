@@ -43,7 +43,7 @@ background-size: cover;
 
 @media (min-width:900px){
     .boddy{
-        width: 860px ;
+        width: 100% ;
     }
     .card__list{
         grid-template-columns: 1fr 1fr 1fr;
