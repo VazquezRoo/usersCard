@@ -8,6 +8,7 @@ import { useForm } from 'react-hook-form'
 import UsersLists from './UsersLists'
 import "/src/UseCard.css"
 import ModalAviso from './components/ModalAviso'
+import Footer from './components/Footer'
 
 
 const BASE_URL = "https://users-crud.academlo.tech" 
@@ -165,6 +166,7 @@ function App() {
     <ModalAviso changeModalAlert={changeModalAlert}
     isShowFormAlert={isShowFormAlert}
     isUserIdToEdit={isUserIdToEdit} />
+    <Footer/>
      </main>
   )
 }
